@@ -1329,7 +1329,7 @@ section,
 # Team Section
 --------------------------------------------------------------*/
 .team {
-  --default-color: #ffffff;
+  --default-color: black;
 }
 
 .team .member {
@@ -1346,6 +1346,7 @@ section,
   position: absolute;
   inset: 0;
   transition: 0.2s;
+  color:white;
 }
 
 .team .member .member-info-content {
@@ -1383,11 +1384,11 @@ section,
 
 .team .member .social a {
   transition: 0.3s;
-  color: var(--default-color);
+  color: white;
 }
 
 .team .member .social a:hover {
-  color: var(--accent-color);
+  color: white;
 }
 
 .team .member .social i {
